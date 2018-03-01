@@ -1,0 +1,30 @@
+body {
+    margin: auto auto;
+    text-align: center;
+}
+
+p {
+    margin-top: 25% !important;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 22px;
+}
+
+.box {
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+  }
+
+input {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 100px;
+}
+
+ul {
+    list-style-type: none;
+}
