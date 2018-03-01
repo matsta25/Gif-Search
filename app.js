@@ -7,7 +7,7 @@ $(function () {
         var limit = 25;
         $.ajax({
             type: 'GET',
-            url: 'https://api.giphy.com/v1/gifs/search?q=' + query + "&api_key=" + keyApi + "&limit=" + limit,
+            url: '//api.giphy.com/v1/gifs/search?q=' + query + "&api_key=" + keyApi + "&limit=" + limit,
             success: function (gifs) {
                 $.each(gifs.data, function (i, gifs) {
                     $gifs.append('<li class="box"><a target="_blank" href="'+ gifs.url +'"><img src="' + gifs.images.preview_gif.url + '"></a></li>');
